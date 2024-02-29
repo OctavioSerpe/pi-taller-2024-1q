@@ -3,9 +3,13 @@ gcc -E hola.c
 
 # Compilar y generar el objeto
 gcc -c hola.c
+
 cat hola.o
+
 xxd hola.o # Ver en hexadecimal
+
 xxd -b hola.o # Ver en binario
+
 strings hola.o
 
 # Linkear y generar el ejecutable
